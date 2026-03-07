@@ -1,0 +1,83 @@
+/* General body style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    background-color: #c62828;
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+}
+
+/* Page headings */
+h2 {
+    color: #c62828;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    width: 250px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+button {
+    padding: 12px 20px;
+    background-color: #c62828;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #b71c1c;
+}
+
+/* Form spacing */
+form {
+    margin-top: 30px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+}
+
+/* Responsive Design for Mobile Devices */
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 24px;
+        padding: 15px 0;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+        width: 80%;
+    }
+
+    button {
+        width: 80%;
+        font-size: 18px;
+        padding: 15px 0;
+    }
+}
